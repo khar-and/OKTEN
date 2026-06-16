@@ -1,0 +1,121 @@
+/* _________Reset styles___________ */
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+
+/* ____________About_____________ */
+
+.about {
+    padding-bottom: 50px;
+}
+
+.about-title {
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-text {
+    margin-bottom: 8px;
+}
+
+/* _____________Members______________ */
+
+
+.members {
+    padding-bottom: 50px;
+}
+
+.members-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.members-wrap {
+    display: flex;
+    gap: 50px;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+
+.members-box {
+
+    width: 700px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.members-subtitle {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.members-item {
+    margin-bottom: 8px;
+}
+
+.members-name {
+    text-decoration: underline;
+}
+
+/* ______________RESULTS_____________ */
+
+.results {
+    padding-bottom: 50px;
+}
+
+.results-title {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.results-wrap {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+
+}
+
+.results-albums {
+    width: 700px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.album {
+    margin-bottom: 8px;
+    list-style: square;
+}
+
+.album:last-child {
+    margin-bottom: 0;
+}
+
+.result-awards {
+    width: 700px;
+    background-color: rgb(236, 233, 233);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.award {
+    margin-bottom: 8px;
+    list-style: square;
+}
+
+.award:last-child {
+    margin-bottom: 0;
+}
